@@ -1,0 +1,10 @@
+int c_cd(char** args);
+int c_echo(char **args);
+int c_mkdir(char **args);
+int c_pwd(char **args);
+int c_pinfo(char **args);
+int c_exit(char **args);
+int list_jobs(char **args);
+int sendsig(char **args);
+int fg(char **args);
+int killall(char **args);
