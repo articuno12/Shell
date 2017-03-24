@@ -1,22 +1,21 @@
 # Instructions
-<br>
+Instructions for using this shell
 #### To compile and run :
-```make
+`make
 ./main
-```
+`
+<br>
 #### To run a command:
- ```
- <command> <argument if any> ;
- ```
+ `<command> <argument if any> ;`
+ <br>
 #### For making a process background:
-```
-  <command> & ;
-  ```
+` <command> & ;`
+  <br>
 #### For piping :
- ```
+ `
  <command1> | <command2>
-```
-
+`
+<br>
 #### For redirection :
 ```
 <command> </>/>> <file>
