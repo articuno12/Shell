@@ -1,17 +1,16 @@
-This shell can execute following commands:
-cd,
-pwd,
-echo,
-bg,
-fg,
-& to make a process background,listjobs,
-sendsig,
-killallbg,
-quit ,
-CTRL+Z,
-CTRL+C,
-CTRL+D
-and
-all executable commands
-
-It also supports multiple input ouput redirections and piping .
+# Shell
+A standalone shell 
+<br>
+# Features
+- All basic commands
+- Semicolon separated multiple commands
+- Piping implemented
+- Foreground and Background Processes
+- List running Jobs
+- Killing all background jobs
+- exit and quit commands for exiting the shell
+- Signal handling like Ctrl+D, Ctrl+Z and Ctrl+C
+<br>
+# Tested On
+- gcc version 6.2.0
+- Ubuntu 16.04
